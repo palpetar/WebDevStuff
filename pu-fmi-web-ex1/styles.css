@@ -1,0 +1,22 @@
+ .r, .g, .b
+    {
+        position:absolute;
+	    width: 200px;
+	    height: 400px;
+}
+	
+.r
+	{
+     	background:red;
+     	top:0;left:0;
+}
+ .g
+    {
+	 	background:green;
+	    top:200px;left:400px;
+}
+ .b
+    {
+     	background:blue;
+	    top:400px;left:800px;
+}
