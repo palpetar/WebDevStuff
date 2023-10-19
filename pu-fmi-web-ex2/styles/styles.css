@@ -1,7 +1,22 @@
-div {
-    background-color: red;
+.r, .g, .b {
     width: 150px;height: 150px;
-    left: 100px;top: 100px; 
+    
     position:absolute;
     transition: left 150ms, top 150ms;
+}
+.r{
+    background-color: red;
+    left: 100px;top: 100px; 
+    /*border-width: 15px;
+    border-style: solid;
+    border-color: orange;
+    */
+}
+.g{
+    background-color: green;
+    left: 300px;top: 300px; 
+}
+.b{
+    background-color: blue;
+    left: 500px;top: 500px; 
 }
