@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="scripts.js" defer> </script>
+
+        <meta charset="UTF-8">
+
+        <h1>
+            Домашно 2
+        </h1>
+    </head>
+
+    <body>
+        <div id="r" class="r"></div>
+        <div id="g" class="g"></div>
+        <div id="b" class="b"></div>
+
+        <div class="direction-buttons">
+            <button id="top-left" class="direction-button">↖</button>
+            <button id="top" class="direction-button">↑</button>
+            <button id="top-right" class="direction-button">↗</button> <br>
+            <button id="left" class="direction-button">←</button>
+            <button id="center" class="direction-button">-</button>
+            <button id="right" class="direction-button">→</button> <br>
+            <button id="bottom-left" class="direction-button">↙</button>
+            <button id="bottom" class="direction-button">↓</button>
+            <button id="bottom-right" class="direction-button">↘</button>
+        </div>
+    
+        <div class="input-container">
+            <label for="moveAmount">Move Amount:</label>
+            <input type="number" id="moveAmount" value="50">
+            <div id="currentPosition">Current Position: (0, 0)</div>
+        </div>
+    </body>
+</html>
